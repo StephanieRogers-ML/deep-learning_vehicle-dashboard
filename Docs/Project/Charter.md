@@ -5,19 +5,29 @@
 * Who is the client, what business domain the client is in.
 * What business problems are we trying to address?
 
+Modern Dashboards can accommodate a broad array of gauges, climate controls, infotainment, and entertainment systems, which contrast to the earlier simpler controls of only speed, fuel, and oil pressure. Various Automakers have different and distinct ways of designing their dashboards and using a collection of visual identification tools, machine learning and deep learning algorithms we will learn to leverage vehicle features of the dashboard to identify the vehicle and its characteristics. 
+
 ## Scope
 * What data science solutions are we trying to build?
 * What will we do?
 * How is it going to be consumed by the customer?
 
 ## Personnel
+
+BIMCON INC 
+Krishna Murthy | kmurthy@bimcon.com
+WSU
+Jatin Gongiwala | go7984@wayne.edu
+Stephanie Rogers | gp5880@wayne.edu
+Ranjitha Vidyashankar | gm8135@wayne.edu
+
 * Who are on this project:
-	* Microsoft:
+	*Wayne State:
 		* Project lead
 		* PM
 		* Data scientist(s)
 		* Account manager
-	* Client:
+	* BIMCON INCt:
 		* Data administrator
 		* Business contact
 	
