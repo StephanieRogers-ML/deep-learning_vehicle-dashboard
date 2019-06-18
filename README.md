@@ -23,8 +23,9 @@ Our dataset consist of images collected from CompCar.
 ##  Evaluation  
 
 ##  Product Demo    
-
-   ![Alt text](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Sample_Data/uploadbox.png)
+![Alt text](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Sample_Data/uploadbox.png)
+   
+![Alt text](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Sample_Data/tdsp-dir-structure.png)
 
 Requirements: software  
     Requirements for Caffe and pycaffe (see: Caffe installation instructions)  
