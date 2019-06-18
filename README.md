@@ -37,7 +37,11 @@ Other non-deep-learning methods have no specific hardware requirements.
 
 ##  Evaluation  
 
-##  Product Demo  
+##  Product Demo    
+1.  Upload Photo
+![Alt text]
+(https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/Sample_Data/uploadbox.png)
+
 
 ##  Contact us  
 
