@@ -2,4 +2,4 @@ Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)
 1,make,,,,
 2,model,,,,
 3,year,,,,
-4,part
+4,part,,,,
