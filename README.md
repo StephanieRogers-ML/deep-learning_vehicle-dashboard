@@ -9,12 +9,25 @@ The goal of this project is to develop a machine learning model that can help id
 
 Our dataset consist of images collected from CompCar.
 
+
 ##  Deep Learning Model
 
 * Image Classification
   Pre-trained GoogLE Net trained on Imagenet & finetuned on exterior CompCar (caffe-multigpu, prototxt files)
   EfficientNet
-  
+    Requirements: software
+    Requirements for Caffe and pycaffe (see: Caffe installation instructions)
+    Note: Caffe must be built with support for Python layers!
+
+```make
+# In your Makefile.config, make sure to have this line uncommented
+WITH_PYTHON_LAYER := 1
+```
+    Caffe build with mkl, cudnn is strongly recommended. 2. For fast-rcnn based classification experiments, fast-rcnn is needed. 3. For     xgboost based experiments, xgboost is needed. 4. Python packages you might not have: python-numpy, python-scipy, python-matplotlib,     python-opencv, python-scikit-learn.
+
+Requirements: hardware
+For training large CNN networks (VGG16, GoogleNet), a good GPU (e.g., Titan, K20, K40, ...) is needed.
+Other non-deep-learning methods have no specific hardware requirements.  
 
 * Object Detection
   Faster RCNN
