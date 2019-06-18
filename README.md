@@ -14,7 +14,12 @@ Our dataset consist of images collected from CompCar.
 
 * Image Classification
   Pre-trained GoogLE Net trained on Imagenet & finetuned on exterior CompCar (caffe-multigpu, prototxt files)  
-    Requirements: software  
+  EfficientNet   
+* Object Detection
+  Faster RCNN 
+* A^3M Architecture  
+
+Requirements: software  
     Requirements for Caffe and pycaffe (see: Caffe installation instructions)  
     Note: Caffe must be built with support for Python layers!  
 
@@ -28,10 +33,6 @@ Requirements: hardware
 For training large CNN networks (VGG16, GoogleNet), a good GPU (e.g., Titan, K20, K40, ...) is needed.  
 Other non-deep-learning methods have no specific hardware requirements.    
 
-* Object Detection
-  Faster RCNN
-  
-* A^3M Architecture
 
 
 ##  Evaluation  
