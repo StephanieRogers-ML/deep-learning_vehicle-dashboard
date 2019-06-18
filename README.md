@@ -27,8 +27,16 @@ Our dataset consist of images collected from CompCar.
     A^3M Architecture    
 
 
-##  Evaluation  
-All results(table)
+ 
+## Summary  
+
+| Framework    | N | # Layers | MinTestError | s / epoch |
+|--------------|--:|---------:|-------------:|----------:|
+| Keras(TF)    | 3 | 20       | 0.0965       | 51.817    |
+| Keras(MXNet) | 3 | 20       | 0.0963       | 50.207    |
+| Chainer      | 3 | 20       | 0.0995       | 35.360    |
+| PyTorch      | 3 | 20       | 0.0986       | 26.602    |  
+
 
 |Make (Top 1)   |   Front   |   Rear    |   Side    |   FS      |   RS      |   All     |
 |:-------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
