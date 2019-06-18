@@ -1,4 +1,5 @@
 Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)",Short Description,Joining Keys with others datasets?
-1,,,,,
-2,,,,,
-3,,,,,
+1,make,,,,
+2,model,,,,
+3,year,,,,
+4,part
