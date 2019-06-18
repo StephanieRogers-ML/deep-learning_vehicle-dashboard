@@ -4,14 +4,6 @@ Modern Dashboards can accommodate a broad array of gauges, climate controls, inf
 
 The goal of this project is to develop a machine learning model that can help identify the content of a vehicle and its features using visual cues from its interior images of the vehicle. This is a multiclass supervised classification problem that will require labeled images to learn the features from curves, edges, and combination of features.  
 
-Requirements: software  
-Requirements for Caffe and pycaffe (see: Caffe installation instructions)  
-Note: Caffe must be built with support for Python layers!  
-
-Requirements: hardware  
-For training large CNN networks (VGG16, GoogleNet), a good GPU (e.g., Titan, K20, K40, ...) is needed.  
-Other non-deep-learning methods have no specific hardware requirements.   
-
 ##  Vehicle Interior Image Dataset
 
 Our dataset consist of images collected from CompCar.
@@ -20,7 +12,16 @@ Our dataset consist of images collected from CompCar.
 ##  Deep Learning Model
 1.  Image Classification  
     Pre-trained GoogLE Net trained on Imagenet & finetuned on exterior CompCar (caffe-multigpu, prototxt files)    
-    EfficientNet     
+    EfficientNet       
+    
+Requirements: software  
+Requirements for Caffe and pycaffe (see: Caffe installation instructions)  
+Note: Caffe must be built with support for Python layers!  
+
+Requirements: hardware  
+For training large CNN networks (VGG16, GoogleNet), a good GPU (e.g., Titan, K20, K40, ...) is needed.  
+Other non-deep-learning methods have no specific hardware requirements.     
+
 2.  Object Detection  
     Faster RCNN   
     A^3M Architecture    
