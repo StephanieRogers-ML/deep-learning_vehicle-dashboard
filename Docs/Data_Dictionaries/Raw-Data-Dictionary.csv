@@ -4,4 +4,4 @@ Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)
 3,year,,,,
 4,part,,,,
 5,image_id,,,,,
-6,image_aray,,,,,
+6,image_aray,,,,
