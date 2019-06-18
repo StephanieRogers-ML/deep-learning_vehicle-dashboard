@@ -4,7 +4,7 @@ Modern Dashboards can accommodate a broad array of gauges, climate controls, inf
 
 The goal of this project is to develop a machine learning model that can help identify the content of a vehicle and its features using visual cues from its interior images of the vehicle. This is a multiclass supervised classification problem that will require labeled images to learn the features from curves, edges, and combination of features.  
 
-![Alt text](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Sample_Data/tdsp-dir-structure.png)
+
 
 ##  Vehicle Interior Image Dataset
 
