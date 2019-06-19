@@ -1,12 +1,9 @@
 #  Project Background  
+##  Image-based & Object-based Deep Learning for Vehicle Interiors 
 
 Modern Dashboards can accommodate a broad array of gauges, climate controls, infotainment, and entertainment systems, which contrast to the earlier simpler controls of only speed, fuel, and oil pressure. Automakers have different and distinct ways of designing their dashboards and using a collection of visual identification tools, machine learning and deep learning algorithms we will learn to leverage vehicle features of the dashboard to identify the vehicle and its characteristics. 
 
-The goal of this project is to develop a machine learning model that can help identify the content of a vehicle and its features using visual cues from its interior images of the vehicle. This is a multiclass supervised classification problem that will require labeled images to learn the features from curves, edges, and combination of features.  
-
-##  Vehicle Interior Image Dataset
-
-Our dataset consist of images collected from CompCar.
+The goal of this project is to develop a machine learning model that can help identify the content of a vehicle and its features using visual cues from its interior images of the vehicle. This is a multiclass supervised classification problem that will require labeled images to learn the features from curves, edges, and combination of features.  Our dataset consist of images collected from the CompCar dataset.
 
 
 ##  Deep Learning Model
@@ -59,7 +56,7 @@ Our dataset consist of images collected from CompCar.
 |Overfeat       |   0.748   |   0.647   |   0.602   |   0.769   |   0.777   |   0.917   |
 
 ##  Product Demo    
-![Alt text](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Sample_Data/uploadbox.png)
+![Demo](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Sample_Data/uploadbox.png)
 
 
 ```make
@@ -71,5 +68,7 @@ WITH_PYTHON_LAYER := 1
 ##  Contact us  
 
 Stephanie Rogers | gp5880@wayne.edu  | stephanierogers.ml@gmail.com
+Jatin Gongiwala  | jatinmg97@wayne.edu |  Jatinmg97@gmail.com
+Ranjitha Vidyashankar  | gm8135@wayne.edu | ranjithavshankar@gmail.com
 
 
