@@ -28,7 +28,7 @@ Our dataset consist of images collected from CompCar.
 
 
  
-## Summary  
+## Summary of Benchmarks  
 
 | Framework    | N | # Layers | MinTestError | s / epoch |
 |--------------|--:|---------:|-------------:|----------:|
@@ -36,6 +36,8 @@ Our dataset consist of images collected from CompCar.
 | Keras(MXNet) | 3 | 20       | 0.0963       | 50.207    |
 | Chainer      | 3 | 20       | 0.0995       | 35.360    |
 | PyTorch      | 3 | 20       | 0.0986       | 26.602    |  
+
+
 
 
 |Make (Top 1)   |   Front   |   Rear    |   Side    |   FS      |   RS      |   All     |
