@@ -1,7 +1,7 @@
 Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)",Short Description,Joining Keys with others datasets?
-1,make,,,,
-2,model,,,,
-3,year,,,,
-4,part,,,,
-5,image_id,,,,
-6,image_aray,,,,
+1,make,categorical,1-123,123 Makes have part photos, join on 'image_id'
+2,model,categorical,1-2004,won't classify model,n/a
+3,year,date,5-6 years,model won't classify date,n/a
+4,part,categorical,1-8,headlight tailight foglight airintake console steering_wheel dashboard gear_lever, join on 'image_id'
+5,image_id,string,,,
+6,image_aray,np.array,3 channels & size 255,image pixel values,join on 'image_id'
