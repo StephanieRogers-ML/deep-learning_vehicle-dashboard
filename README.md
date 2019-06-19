@@ -67,8 +67,11 @@ WITH_PYTHON_LAYER := 1
 
 ##  Contact us  
 
-Stephanie Rogers | gp5880@wayne.edu  | stephanierogers.ml@gmail.com
-Jatin Gongiwala  | jatinmg97@wayne.edu |  Jatinmg97@gmail.com
-Ranjitha Vidyashankar  | gm8135@wayne.edu | ranjithavshankar@gmail.com
+Stephanie Rogers | gp5880@wayne.edu  | stephanierogers.ml@gmail.com  
+
+Jatin Gongiwala  | jatinmg97@wayne.edu |  Jatinmg97@gmail.com  
+
+Ranjitha Vidyashankar  | gm8135@wayne.edu | ranjithavshankar@gmail.com  
+
 
 
