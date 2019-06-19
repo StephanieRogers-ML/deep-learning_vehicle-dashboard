@@ -12,8 +12,6 @@ For each dataset, the links to the sample datasets in the _**Data**_ directory a
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
 | Comp Car | The Chinese University of Hong Kong| Google Drive | [script1.py](link/to/python/script/file/in/Code) | [Dataset 1 Report](link/to/report1)|
-| Interior Test | Testing images collected & labeled by team | Google Drive | [script2.R](link/to/R/script/file/in/Code) | [Dataset 2 Report](link/to/report2)|
-
 
 * Comp Car Dataset reference @InProceedings{Yang_2015_CVPR, author = {Yang, Linjie and Luo, Ping and Change Loy, Chen and Tang, Xiaoou}, title = {A Large-Scale Car Dataset for Fine-Grained Categorization and Verification}, journal = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, month = {June}, year = {2015} }
 
