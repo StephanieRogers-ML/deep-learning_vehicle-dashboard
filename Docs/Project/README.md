@@ -7,4 +7,4 @@
 4. Docs and presentations prepared to share information about the project
 
 
-[GoogLeNet]('https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Docs/Data_Dictionaries/googLeNet_Architecture_graph.png')
+![GoogLeNet]('https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Docs/Data_Dictionaries/googLeNet_Architecture_graph.png')
