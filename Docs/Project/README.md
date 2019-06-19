@@ -6,6 +6,10 @@
 3. Information obtained from a business owner or client about the project
 4. Docs and presentations prepared to share information about the project
 
-![GoogLeNet Graph](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Docs/Data_Dictionaries/googLeNet_Architecture_graph.png)
 
 ![GoogLeNet tabular](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Docs/Data_Dictionaries/googLeNet_Architecture.png)
+
+
+![GoogLeNet Graph](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Docs/Data_Dictionaries/googLeNet_Architecture_graph.png)
+
+
