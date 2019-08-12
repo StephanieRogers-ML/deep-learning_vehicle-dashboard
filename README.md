@@ -40,7 +40,6 @@ Tensorflow 2.0, Tensorflow JS and Tensorflow Hub were used.
 
 
 |Make (Top 1)   | Interior  |  steering |  odometer |   control |   gear    |   All     |
-                                wheel                   center      lever
 |:-------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |MobileNet      |   0.946   |   0.885   |   0.804   |   0.906   |   0.857   |   0.844   |
 |SSD            |   0.953   |   0.949   |   0.259   |   0.777   |   0.789   |   0.767   |
