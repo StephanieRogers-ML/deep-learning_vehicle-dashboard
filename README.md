@@ -5,15 +5,28 @@ Modern Dashboards can accommodate a broad array of gauges, climate controls, inf
 
 The goal of this project is to develop a machine learning model that can help identify the content of a vehicle and its features using visual cues from its interior images of the vehicle. This is a multiclass supervised classification problem that will require labeled images to learn the features from curves, edges, and combination of features.  Our dataset consist of images collected from the CompCar dataset.
 
-
 ##  Deep Learning Models
 
 ### Tasks
-1.  Image Classification
-2.  Object Detection
-3.  Demo
+* [ ]  Environment: Tensorflow 2.0, Tensorflow JS and Tensorflow Hub 
+* [ ]  Vehicle Classification: Previously trained on ImageNet.
+* [ ]  Object detection: model that localize and identify multiple objects in a single image.
+* [ ]  Demo
+ 
 
-Tensorflow 2.0, Tensorflow JS and Tensorflow Hub were used.  
+### Vehicle_Classification
+
+This repo was created as a summer practicum project.  Image Classification is applied to interior vehicle images from 3 different Makes using [tensorflow.js](https://js.tensorflow.org) and Google Colab. It is loosely based on the [tfjs Mobilenet example](https://github.com/tensorflow/tfjs-examples/tree/master/mobilenet).
+
+### Object_Detection 
+## TensorFlow.js Demo Example
+
+
+
+
+
+
+
 
 1.  Image Classification done using a pre-trained model as the base and different classifiers, feature extractors, and fine tuning on a custom dataset. 
         classifier_url = 
@@ -54,8 +67,14 @@ Single-Shot Multibox Detector (SSD) with feature extraction head from MobileNet
 ##  Product Demo    
 ![Demo](https://github.com/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/Sample_Data/uploadbox.png)
 
+### Vehicle Detection & Classification
+* [Tensorflow Object Detection API](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/index.html) 
+* [Tensorflow COCO-SSD](https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd/demo) 
+* [Steering Ecosystem Simulation Demo](https://shiffman.github.io/Tensorflow-JS-Examples/05_neuro_evolution_steering/) 
 
-
+### Reference
+* [JS Doodle Classifier video tutorials](https://www.youtube.com/watch?v=pqY_Tn2SIVA&list=PLRqwX-V7Uu6Zs14zKVuTuit6jApJgoYZQ)
+* [ml4a ofx Doodle Classifier](https://ml4a.github.io/guides/DoodleClassifier/)
 
 ##  Contact us  
 
