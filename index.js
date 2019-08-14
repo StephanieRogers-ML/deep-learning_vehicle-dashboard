@@ -17,7 +17,7 @@
 
 import * as cocoSsd from '@tensorflow-models/coco-ssd'
 
-import imageURL from './image1.jpg';
+import imageURL from './car.jpg';
 import image2URL from './image2.jpg';
 
 let modelPromise;
