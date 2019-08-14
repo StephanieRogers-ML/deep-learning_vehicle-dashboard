@@ -19,6 +19,7 @@ import * as cocoSsd from '@tensorflow-models/coco-ssd'
 
 import imageURL from './car.jpg';
 import image2URL from './image2.jpg';
+import image3URL from './cat.jpg';
 
 let modelPromise;
 let baseModel = 'lite_mobilenet_v2';
@@ -27,7 +28,7 @@ window.onload = () => modelPromise = cocoSsd.load();
 
 const button = document.getElementById('toggle');
 button.onclick = () => {
-  image.src = image.src.endsWith(imageURL) ? image2URL : imageURL;
+  image.src = image.src.endsWith(imageURL) ? image2URL : imageURL; image3URL : imageURL;
 };
 
 const select = document.getElementById('base_model');
