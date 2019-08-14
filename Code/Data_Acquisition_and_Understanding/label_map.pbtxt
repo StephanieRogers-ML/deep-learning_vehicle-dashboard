@@ -1,0 +1,19 @@
+item {
+    id: 1
+    name: 'control_center'
+}
+
+item {
+    id: 2
+    name: 'gear_lever'
+}
+
+item {
+    id: 3
+    name: 'odometer'
+}
+
+item {
+    id: 4
+    name: 'steering_wheel'
+}
