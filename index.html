@@ -299,7 +299,7 @@
           However, these techniques have yet to be applied to vehicle interiors.  In the summer of 2019, a team of graduate students from Wayne State University undertook the task of evaluating and creating state of the art deep learning techniques to identify the interior features of a vehicle.  The goal of this project is to develop a machine learning model that can help identify the content of a vehicle and its features using visual cues from its interior images of the vehicle.  This is a multiclass supervised classification problem that will require labeled images to learn the features from curves, edges, and combination of features. Our dataset consist of images collected from the CompCar dataset. </p>
         </div>
         <div class="col-sm-4">
-          <span class="  <img alt="Object Detection" height="300" src="futuristic_car.jpg" width="400">"></span>
+        src="futuristic_car.jpg" width="400">
         </div>
       </div>
     </div>
@@ -310,8 +310,8 @@
     <div class="container-fluid text-center bg-grey" id="models">
       <h2>Models</h2><br>
       <h4>Models have been created using:
-        Object Detection -    Tensorflow 1.X - Utilizing the Object Detection API we retrained new architecture configurations <br>
-        Image Classification- Tensorflow 2.0 - Utilizing TF Hub we evaluated base models, retrained and fine tuned architecture. <br>
+        Object Detection -    Tensorflow 1.X - Utilizing the Object Detection API we retrained new architecture configurations <br><br>
+        Image Classification- Tensorflow 2.0 - Utilizing TF Hub we evaluated base models, retrained and fine tuned architecture. <br><br>
         This will ease transition for future work with a publically maintained codebase.</h4>
       <div class="row text-center slideanim">
         <div class="col-sm-4">
@@ -383,9 +383,6 @@
         </div>
 
 
-      </div><!-- Container (Video Demonstrations) -->
-      <div class="container-fluid text-center bg-grey" id="videos">
-
 <html>
  <body>
   <iframe src="https://www.youtube.com/embed/F_PJEzfYDm4?controls=0&amp;start=25"
@@ -439,8 +436,11 @@
             <div id="status"></div>
               <p class='section-head'>Model Output</p>
               <canvas height="399" id="canvas" width="600"></canvas>
-              <div id="predictions"></div><img height="224" id="cat" src="cat.jpg" style="display: none" width="224">
-              <!-- Load TensorFlow.js. This is required to use coco-ssd model. -->
+              <div id="predictions"></div>
+              <img height="224" id="cat" src="cat.jpg" style="display: none" width="224">
+             
+            
+            <!-- Load TensorFlow.js. This is required to use coco-ssd model. -->
               <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
               <!-- Load the coco-ssd model. -->
               <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script>
