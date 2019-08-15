@@ -299,7 +299,7 @@
           However, these techniques have yet to be applied to vehicle interiors.  In the summer of 2019, a team of graduate students from Wayne State University undertook the task of evaluating and creating state of the art deep learning techniques to identify the interior features of a vehicle.  The goal of this project is to develop a machine learning model that can help identify the content of a vehicle and its features using visual cues from its interior images of the vehicle.  This is a multiclass supervised classification problem that will require labeled images to learn the features from curves, edges, and combination of features. Our dataset consist of images collected from the CompCar dataset. </p>
         </div>
         <div class="col-sm-4">
-        src="futuristic_car.jpg" width="400">
+        <img src="futuristic_car.jpg">
         </div>
       </div>
     </div>
@@ -382,7 +382,8 @@
           </div>
         </div>
 
-
+<!-- Container (Video Section) -->
+<div class="container-fluid text-center bg-grey" id="videos">
 <html>
  <body>
   <iframe src="https://www.youtube.com/embed/F_PJEzfYDm4?controls=0&amp;start=25"
@@ -390,26 +391,12 @@
  </body>
 </html>
 
-      </div><!-- Container (Demo Section) -->
-      <div class="container-fluid" id="Demo">
+      <!-- Container (Demo Section) -->
+      <div class="container-fluid text-center" id="Demo">
+        <h2>DEMO</h2> </div>
         <div class="tfjs-example-container">
-          <h1>Vehicle Interior Object Detection with Deep Learning</h1>
-          <select id="option value">
-            <option value="lite_mobilenet_v2">
-              SSD Lite Mobilenet V2
-            </option>
-            <option value="mobilenet_v1">
-              SSD Mobilenet v1
-            </option>
-            <option value="mobilenet_v2">
-              SSD Mobilenet v2
-            </option>
-          </select id>
-    
-<html>
-
-<body>
-  <h1>Object Detection</h1>
+          <body>
+  <h1>Object Detection Demo</h1>
   <select id='base_model'>
     <option value="lite_mobilenet_v2">SSD Lite Mobilenet V2</option>
     <option value="mobilenet_v1">SSD Mobilenet v1</option>
@@ -467,6 +454,21 @@
               </script>
             </section>
 
+<p id="myP1">This is some text.</p>
+<p id="myP2">This is some text.</p>
+
+<input type="button" onclick="demoDisplay()" value="Hide text with display property">
+<input type="button" onclick="demoVisibility()" value="Hide text with visibility property">
+
+<script>
+function demoDisplay() {
+  document.getElementById("myP1").style.display = "none";
+}
+
+function demoVisibility() {
+  document.getElementById("myP2").style.visibility = "hidden";
+}
+</script>
 
 
             <!-- Container (Contact Section) -->
