@@ -306,8 +306,8 @@
     </div><!-- Container (Models Section) -->
     <div class="container-fluid text-center bg-grey" id="models">
       <h2>Models have been created with:</h2><br>
-      <h4> Object Detection -    Tensorflow 1.X - Utilizing the Object Detection API we retrained new architecture configurations <br><br>
-        Image Classification- Tensorflow 2.0 - Utilizing TF Hub we evaluated base models, retrained and fine tuned architecture. <br><br>
+      <h4> Object Detection - Tensorflow 1.X - Utilizing the Object Detection API <br>
+        Image Classification- Tensorflow 2.0 - Utilizing TF Hub we evaluated base models, retrained and fine tuned architecture. <br>
         This will ease transition for future work with a publically maintained codebase.</h4>
       <div class="row text-center slideanim">
         <div class="col-sm-4">
@@ -392,22 +392,29 @@
         <h2>DEMO</h2> </div>
         <div class="tfjs-example-container">
           <body>
-  <h1>Object Detection Demo</h1>
-  <select id='base_model'>
-    <option value="lite_mobilenet_v2">SSD Lite Mobilenet V2</option>
-    <option value="mobilenet_v1">SSD Mobilenet v1</option>
-    <option value="mobilenet_v2">SSD Mobilenet v2</option>
-  </select>
-  <button type="button" id="run">Run</button>
-  <button type="button" id="toggle">Toggle Image</button>
-<div>
-  <img id="image"/>
-  <canvas id="canvas" width="600" height="399"></canvas>
-</div>
-</body>
+          <h1>Object Detection Demo</h1>
+          <select id='base_model'>
+            <option value="lite_mobilenet_v2">SSD Lite Mobilenet V2</option>
+            <option value="mobilenet_v1">SSD Mobilenet v1</option>
+            <option value="mobilenet_v2">SSD Mobilenet v2</option>
+          </select>
+          <button type="button" id="run">Run</button>
+          <button type="button" id="toggle">Toggle Image</button>
+        <div>
+          <img id="image"/>
+          <canvas id="canvas" width="600" height="399"></canvas>
+        </div>
+        </body>
 
-<script src="index.js"></script>
-
+        <script src="index.js"></script>
+  <!-- Container (Video Section) -->
+      <div class="container-fluid text-center bg-grey" id="videos">
+      <html>
+       <body>
+        <iframe src="https://www.youtube.com/embed/F_PJEzfYDm4?controls=0&amp;start=25"
+         width="560" height="315" frameborder="0" allowfullscreen></iframe>
+       </body>
+      </html>
                       
             <!-- Container (Contact Section) -->
             <div id="contact" class="container-fluid text-center">
